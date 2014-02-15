@@ -19,12 +19,12 @@ documentation is covered by the MIT license.
 
   The MIT License
 
-  Copyright (c) 2009-2011 Matthew Brett <matthew.brett@gmail.com>
-  Copyright (c) 2010-2011 Stephan Gerhard <git@unidesign.ch>
+  Copyright (c) 2009-2014 Matthew Brett <matthew.brett@gmail.com>
+  Copyright (c) 2010-2013 Stephan Gerhard <git@unidesign.ch>
   Copyright (c) 2006-2010 Michael Hanke <michael.hanke@gmail.com>
   Copyright (c) 2011 Christian Haselgrove <christian.haselgrove@umassmed.edu>
   Copyright (c) 2010-2011 Jarrod Millman <jarrod.millman@gmail.com>
-  Copyright (c) 2011-2012 Yaroslav Halchenko <debian@onerussian.com>
+  Copyright (c) 2011-2014 Yaroslav Halchenko <debian@onerussian.com>
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to deal
@@ -45,8 +45,8 @@ documentation is covered by the MIT license.
   THE SOFTWARE.
 
 
-3rd Party Code
-==============
+3rd party code and data
+=======================
 
 Some code distributed within the nibabel sources was developed by other
 projects. This code is distributed under its respective licenses that are
@@ -122,37 +122,13 @@ Sphinx 0.6 doesn't work properly.
   OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
   DAMAGE.
 
+Philips PAR/REC data
+--------------------
 
-Lightunit module
-----------------
+The files::
 
-Taken from IPython.
+    nibabel/tests/data/phantom_EPI_asc_CLEAR_2_1.PAR
+    nibabel/tests/data/phantom_EPI_asc_CLEAR_2_1.REC
 
-::
-
-  Copyright (c) 2009 Fernando Perez and the IPython Development Team
-
-  Redistribution and use in source and binary forms, with or without
-  modification, are permitted provided that the following conditions are met:
-
-    a. Redistributions of source code must retain the above copyright notice,
-       this list of conditions and the following disclaimer.
-    b. Redistributions in binary form must reproduce the above copyright
-       notice, this list of conditions and the following disclaimer in the
-       documentation and/or other materials provided with the distribution.
-    c. Neither the name of the Enthought nor the names of its contributors
-       may be used to endorse or promote products derived from this software
-       without specific prior written permission.
-
-
-  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-  AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-  IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
-  ARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE FOR
-  ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-  DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-  SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-  CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
-  LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
-  OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
-  DAMAGE.
+are from http://psydata.ovgu.de/philips_achieva_testfiles, and released under
+the PDDL version 1.0 available at http://opendatacommons.org/licenses/pddl/1.0/
